@@ -1,4 +1,7 @@
+Python==3.11.9
 nltk==3.8.1
 torch==2.1.2+cu121
 numpy==1.24.3
-Python==3.11.9
+jupyter==1.0.0
+json5==0.9.25
+nbconvert==7.16.4
