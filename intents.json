@@ -1,0 +1,350 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Greetings",
+        "What's up?",
+        "Howdy",
+        "Hola"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Nice to see you!",
+        "Hey, how's it going?",
+        "Howdy! Welcome to our coffee shop."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Farewell",
+        "Take care",
+        "Catch you later",
+        "Until next time"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Farewell! Have a great day.",
+        "Take care! See you soon.",
+        "Catch you later! Enjoy your day.",
+        "Until next time! Take care."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "Appreciate it",
+        "Cheers"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "Glad I could assist.",
+        "You're welcome!",
+        "Cheers! Enjoy your coffee."
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What's on the menu?",
+        "Can you list your offerings?",
+        "Show me your menu"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea",
+        "Our menu includes various coffee blends and tea selections.",
+        "You can check our menu on our website or ask for a menu at the counter."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "What payment methods do you accept?",
+        "How can I pay?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal",
+        "You can pay with VISA, Mastercard, Paypal, and cash.",
+        "We also accept contactless payments and mobile wallets."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "What's the delivery timeframe?",
+        "When can I expect my order?",
+        "Do you offer delivery options?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days",
+        "You can expect your delivery within 2-4 business days.",
+        "We offer various delivery options. Please inquire about delivery charges and timings."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Make me laugh!"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I used to play piano by ear, but now I use my hands.",
+        "I'm reading a book on anti-gravity, it's impossible to put down!",
+        "Why don't skeletons fight each other? They don't have the guts!"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What's your address?",
+        "How can I find you?",
+        "Are you near me?",
+        "Can you give me directions?"
+      ],
+      "responses": [
+        "We are located at 123 Main Street, Cityville, State, Zip Code 3333.",
+        "Our coffee shop is situated at 123 Main Street, Cityville, State, Zip Code 3333.",
+        "You can find us at 123 Main Street, Cityville, State, Zip Code 3333.",
+        "We're located near City Center. You can easily find us using Google Maps."
+      ]
+    },
+    {
+      "tag": "customization",
+      "patterns": [
+        "Can I customize my order?",
+        "Do you offer customization?",
+        "Can I add extras to my drink?",
+        "Do you accommodate special requests?",
+        "I have specific preferences"
+      ],
+      "responses": [
+        "Yes, you can customize your order according to your preferences.",
+        "We offer various customization options for your order.",
+        "Feel free to add extras or make special requests to customize your drink.",
+        "Absolutely, we are happy to accommodate any special requests.",
+        "Please let us know your preferences, and we'll tailor your order accordingly."
+      ]
+    },
+    {
+      "tag": "wifi",
+      "patterns": [
+        "Do you have WiFi?",
+        "Is there free WiFi?",
+        "Can I connect to the internet?",
+        "What's the WiFi password?"
+      ],
+      "responses": [
+        "Yes, we provide free WiFi to our customers. The WiFi password is \"Caylarrr\" Enjoy!.",
+        "You can connect to our complimentary WiFi network. The password is \"Caylarrr\" Enjoy!.",
+        "Feel free to use our free WiFi during your visit. The password is \"Caylarrr\" Enjoy!.",
+        "The WiFi password is \"Caylarrr\" Enjoy!"
+      ]
+    },
+    {
+      "tag": "loyalty_program",
+      "patterns": [
+        "Do you have a loyalty program?",
+        "Are there any rewards for regular customers?",
+        "Can I earn points for my purchases?",
+        "How can I join your loyalty program?"
+      ],
+      "responses": [
+        "Yes, we have a loyalty program for our valued customers.",
+        "Our loyalty program rewards regular customers with exclusive benefits.",
+        "You can earn points for your purchases and redeem them for rewards.",
+        "Joining our loyalty program is easy! Just ask our staff for details during your visit."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your opening hours?",
+        "When do you open?",
+        "What time do you close?"
+      ],
+      "responses": [
+        "Our opening hours are Monday to Friday from 7:00 AM to 8:00 PM, and on weekends from 8:00 AM to 6:00 PM.",
+        "We are open Monday to Friday from 7:00 AM to 8:00 PM, and on weekends from 8:00 AM to 6:00 PM."
+      ]
+    },
+    {
+      "tag": "cafe_environment",
+      "patterns": [
+        "What's the atmosphere like at your coffee shop?",
+        "Do you have a quiet place to work?"
+      ],
+      "responses": [
+        "We offer a cozy and relaxing atmosphere.",
+        "We have a designated workspace with comfortable seating and free WiFi.",
+        "We pride ourselves on providing a cozy and comfortable environment where you can enjoy your coffee and unwind."
+      ]
+    },
+    {
+      "tag": "drinks",
+      "patterns": [
+        "What drinks do you offer?",
+        "Can you list your beverages?",
+        "Tell me about your drinks menu.",
+        "What kind of drinks do you have?",
+        "Do you serve any specialty drinks?"
+      ],
+      "responses": [
+        "We offer a variety of drinks including espresso, cappuccino, latte, macchiato, Americano, and various tea options.",
+        "Our drinks menu features a selection of coffee-based beverages such as espresso, cappuccino, and latte, as well as a variety of teas.",
+        "You can choose from a range of drinks including classic espresso drinks, specialty coffee blends, and refreshing teas.",
+        "Our menu includes a wide range of drinks to suit every taste, from traditional espresso-based beverages to unique specialty drinks.",
+        "We specialize in crafting delicious coffee drinks like espresso, cappuccino, and latte, as well as offering a variety of tea options."
+      ]
+    },
+    {
+      "tag": "prices",
+      "patterns": [
+        "How much do your drinks cost?",
+        "What are your prices?",
+        "Can you tell me about your pricing?",
+        "Do you have a price list?",
+        "What is the price range of your drinks?"
+      ],
+      "responses": [
+        "Our drink prices vary depending on the size and type of drink. On average, our espresso-based drinks range from $3 to $5, while our teas start at $2.50.",
+        "We offer competitive prices for our drinks. Espresso-based drinks typically range from $3 to $5, while our teas start at $2.50.",
+        "Our pricing is designed to be affordable for our customers. Espresso-based drinks range from $3 to $5, and teas start at $2.50.",
+        "You can find our drink prices listed on our menu. Generally, espresso-based drinks range from $3 to $5, and teas start at $2.50.",
+        "Our drink prices are reasonable and reflect the quality of our ingredients. Espresso-based drinks typically range from $3 to $5, and teas start at $2.50."
+      ]
+    },
+    {
+      "tag": "specialty_drinks",
+      "patterns": [
+        "What specialty drinks do you offer?",
+        "Can you recommend any specialty beverages?",
+        "Tell me about your unique blends",
+        "Any special drinks on the menu?"
+      ],
+      "responses": [
+        "Our specialty drinks include unique blends crafted by our expert baristas, such as our signature caramel macchiato and seasonal pumpkin spice latte.",
+        "Indulge in our exclusive selection of specialty drinks, featuring innovative flavors and carefully crafted recipes.",
+        "If you may like, we highly recommend Turkish Coffee."
+      ]
+    },
+    {
+      "tag": "food_options",
+      "patterns": [
+        "Do you serve any food?",
+        "What kind of snacks do you have?",
+        "Tell me about your food offerings",
+        "Are there any meal options available?"
+      ],
+      "responses": [
+        "In addition to our beverages, we offer a variety of delicious pastries, sandwiches, and salads to satisfy your hunger.",
+        "Explore our food menu featuring a range of savory and sweet options, perfect for pairing with your favorite drink.",
+        "We have a very special pastry called Baklava."
+      ]
+    },
+    {
+      "tag": "allergen_information",
+      "patterns": [
+        "Do you provide allergen information?",
+        "Are there any gluten-free options?",
+        "Can you accommodate dietary restrictions?",
+        "I have food allergies, what are my options?"
+      ],
+      "responses": [
+        "We take allergies seriously and provide allergen information for our menu items. Please ask our staff for assistance.",
+        "Our menu includes gluten-free and allergy-friendly options. Feel free to inquire about our ingredients and preparation methods."
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "Do you host events?",
+        "Are there any upcoming events at your coffee shop?",
+        "Tell me about your event schedule",
+        "Any live entertainment happening?"
+      ],
+      "responses": [
+        "We occasionally host events such as live music nights, open mic sessions, and art exhibitions. Stay updated by following our social media channels.",
+        "Join us for exciting events throughout the month, including trivia nights, acoustic performances, and community gatherings."
+      ]
+    },
+    {
+      "tag": "customer_service",
+      "patterns": [
+        "How can I contact customer service?",
+        "Do you have a customer service hotline?",
+        "Can I speak to a manager?",
+        "Is there a feedback form available?"
+      ],
+      "responses": [
+        "For any inquiries or assistance, you can reach our customer service team at +1-800-123-4567 or email us at customerservice@coffeeshop.com. You can also visit our website for FAQs and contact forms.",
+        "Our friendly staff are always available to assist you. Feel free to ask for a manager during your visit or fill out our online feedback form on our website."
+      ]
+    },
+    {
+      "tag": "sustainability_practices",
+      "patterns": [
+        "Are you environmentally friendly?",
+        "What sustainability initiatives do you have?",
+        "Tell me about your eco-friendly practices",
+        "How do you reduce your environmental impact?"
+      ],
+      "responses": [
+        "We are committed to sustainability and implement practices such as using biodegradable cups and sourcing ethically sourced coffee beans.",
+        "Protecting the planet is important to us. Learn more about our sustainability initiatives, including waste reduction and energy-efficient operations."
+      ]
+    },
+    {
+      "tag": "daily_specials",
+      "patterns": [
+        "Do you have any daily specials?",
+        "What's today's special?",
+        "Tell me about your daily deals",
+        "Any promotions happening today?"
+      ],
+      "responses": [
+        "Check out our daily specials board for rotating offerings such as discounted drinks or featured menu items.",
+        "Discover our daily specials, including seasonal favorites and limited-time promotions. Don't miss out on today's deals!"
+      ]
+    }
+  ]
+}
