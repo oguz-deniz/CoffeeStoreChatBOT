@@ -6,10 +6,10 @@ from nltk_utils import apply_bag_of_words, tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('C:\\Users\\oguzd\\VSCode\\PyTorchNLP\\intents.json','r') as f:
+with open('intents.json','r') as f:
         intents = json.load(f)
 
-FILEPATH = "C:\\Users\\oguzd\\VSCode\\PyTorchNLP\\chatBOT_model.pth"
+FILEPATH = "chatBOT_model.pth"
 model_info = torch.load(FILEPATH)
 input_size = model_info["input_size"]
 hidden_size = model_info["hidden_size"]
