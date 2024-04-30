@@ -16,6 +16,13 @@ To generate correct responses, a basic neural network model is implemented using
 
 Python's NLTK library is employed for basic natural language processing tasks. The preprocessing pipeline involves tokenization, converting text to lowercase and stemming, excluding punctuation characters, and creating a bag of words representation.
 
+1. **Tokenization**: Breaking down the text into individual words or tokens.
+2. **Lowercasing and Stemming**: Converting the text to lowercase and reducing words to their root form to normalize variations.
+3. **Excluding Punctuation Characters**: Removing punctuation marks from the text to focus on the meaningful words.
+4. **Bag of Words Representation**: Converting the processed text into a numerical representation using a bag of words model.
+
+These preprocessing steps help in transforming the raw text data into a format that can be effectively utilized by the neural network model.
+
 ### Data Preparation
 
 The `train_utils.py` script is developed to prepare the training data from the raw `intents.json` file. This script processes the data and generates the necessary format for training the neural network model.
@@ -32,18 +39,11 @@ To enhance user experience and accessibility, a basic graphical user interface (
 
 Here are some examples of the dialogues supported by the Coffee Shop ChatBOT:
 
-- User: "What items do you have?"
-  ChatBOT: "We sell coffee and tea."
-  
-- User: "When do you open?"
-  ChatBOT: "Our opening hours are Monday to Friday from 7:00 AM to 8:00 PM, and on weekends from 8:00 AM to 6:00 PM."
 
-- User: "Do you accept credit cards?"
-  ChatBOT: "We accept VISA, Mastercard, and Paypal."
 
 ## Conclusion
 
-The Coffee Shop ChatBOT project combines basic natural language processing techniques, neural network implementation, and GUI development to create an interactive chatbot application for coffee shop-related inquiries. The project aims to provide a user-friendly and engaging experience for customers seeking information about a coffee shop's offerings and services.
+The Coffee Shop ChatBOT project combines basic natural language processing techniques, neural network implementation, and GUI development to create an interactive chatbot application for coffee shop-related inquiries. The project aims to be a good example of a basic software that provides a user-friendly and engaging experience for customers seeking information about a coffee shop's offerings and services.
 
 # Mad respect to him
 <img src="https://github.com/oguz-deniz/CayciHuseyinChatBOT/assets/98212476/ad63e0aa-3b8f-4271-9eaa-5b8f36de5a24" alt="Ekran Görüntüsü (205)" width="600">
