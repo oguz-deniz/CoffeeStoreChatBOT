@@ -39,8 +39,8 @@ To enhance user experience and accessibility, a basic graphical user interface (
 
 Here are some examples of the dialogues supported by the Coffee Shop ChatBOT:
 
-<img src="https://github.com/oguz-deniz/Teknofest24/assets/98212476/9fdf0117-8596-47ed-ada6-e8268d634f78" alt="Ekran Görüntüsü (205)" width="300" height="390"> 
-<img src="https://github.com/oguz-deniz/Teknofest24/assets/98212476/8124bca7-293d-403b-a94a-cd23b3ead1ba" alt="Ekran Görüntüsü (205)" width="300">
+<img src="https://github.com/oguz-deniz/Teknofest24/assets/98212476/9fdf0117-8596-47ed-ada6-e8268d634f78" alt="Ekran Görüntüsü (205)" width="400" height="392"> 
+<img src="https://github.com/oguz-deniz/Teknofest24/assets/98212476/8124bca7-293d-403b-a94a-cd23b3ead1ba" alt="Ekran Görüntüsü (205)" width="400">
 
 ## Conclusion
 
