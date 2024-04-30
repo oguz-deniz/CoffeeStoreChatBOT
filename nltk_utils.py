@@ -28,7 +28,7 @@ bow = apply_bag_of_words(sentence, all_words)
 #print(bow)
 
 """
-a = "How much do you bench brother organized?"
+a = "How much do you bench brother?"
 print(a)
 a = tokenize(a)
 print("tokenized:",a)
