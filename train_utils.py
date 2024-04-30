@@ -4,7 +4,7 @@ from nltk_utils import tokenize, stem, apply_bag_of_words
 
 def get_train_data():
 
-    with open('C:\\Users\\oguzd\\VSCode\\PyTorchNLP\\intents.json','r') as f:
+    with open('intents.json','r') as f:
         intents = json.load(f)
 
     all_words = []
